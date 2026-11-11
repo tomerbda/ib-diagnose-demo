@@ -1,0 +1,7 @@
+# nightly build, agents on 1.9.x
+{"task": "cl.exe core/alloc.cpp", "agent": "bld-01", "agent_ver": "1.9.4", "cache": "hit", "duration_ms": 180, "est_ms": 4200, "ts": "2026-11-03T01:02:11Z"}
+{"task": "cl.exe core/stream.cpp", "agent": "bld-01", "agent_ver": "1.9.4", "cache": "hit", "duration_ms": 210, "est_ms": 5100, "ts": "2026-11-03T01:02:12Z"}
+{"task": "cl.exe net/socket.cpp", "agent": "bld-02", "agent_ver": "1.9.4", "cache": "miss", "duration_ms": 6300, "est_ms": 0, "ts": "2026-11-03T01:02:13Z"}
+{"task": "cl.exe ui/main.cpp", "agent": "bld-02", "agent_ver": "1.9.4", "cache": "hit", "duration_ms": 150, "est_ms": 3900, "ts": "2026-11-03T01:02:15Z"}
+{"task": "link.exe app.exe", "agent": "bld-01", "agent_ver": "1.9.4", "cache": "skip", "duration_ms": 9800, "ts": "2026-11-03T01:02:30Z"}
+{"task": "cl.exe setup/packet.cpp", "agent": "bld-02", "agent_ver": "1.9.4", "cache": "miss", "duration_ms": 4700, "est_ms": 0, "ts": "2026-11-03T01:02:31Z"}
